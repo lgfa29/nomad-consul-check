@@ -1,4 +1,4 @@
-module github.com/hashicorp/nomad-consul-check
+module github.com/lgfa29/nomad-consul-check
 
 go 1.16
 

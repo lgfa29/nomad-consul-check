@@ -22,8 +22,8 @@ var (
 )
 
 func init() {
-	flag.BoolVar(&shouldHaveConsul, "consul", false, "")
-	flag.BoolVar(&shouldBeIneligble, "ineligible", false, "")
+	flag.BoolVar(&shouldHaveConsul, "consul", false, "Return nodes that have a working Consul agent.")
+	flag.BoolVar(&shouldBeIneligble, "ineligible", false, "Return nodes that are ineligible.")
 }
 
 func main() {
