@@ -8,3 +8,5 @@ Usage of nomad-consul-check:
   -ineligible
         Return nodes that are ineligible.
 ```
+
+Download [binaries](https://github.com/lgfa29/nomad-consul-check/releases/latest).
